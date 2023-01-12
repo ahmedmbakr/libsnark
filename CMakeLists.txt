@@ -13,7 +13,7 @@ set(
 option(
   DEBUG
   "Enable debugging mode"
-  OFF
+  ON
 )
 option(
   LOWMEM
@@ -28,7 +28,7 @@ option(
 option(
   BINARY_OUTPUT
   "In serialization, output raw binary data (instead of decimal), which is smaller and faster."
-  ON
+  OFF
 )
 option(
   MONTGOMERY_OUTPUT
